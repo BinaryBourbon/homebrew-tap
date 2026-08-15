@@ -1,28 +1,28 @@
 class Fountain < Formula
   desc "CLI for Fountain — HTTP/JSON client, SSE consumer, and secret-store helper"
   homepage "https://github.com/BinaryBourbon/fountain"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/BinaryBourbon/fountain/releases/download/v0.10.0/fountain-darwin-arm64"
-      sha256 "6fced1bf943c7ed81f5d1f96276de1083d9586f5e97bffb48d05085a57d8a57f"
+      url "https://github.com/BinaryBourbon/fountain/releases/download/v0.10.1/fountain-darwin-arm64"
+      sha256 "785efa0b9b03ab09937ddb6a3e26b4c33e9ff68b490ed1cd9bc29771a4268c4d"
     end
     on_intel do
-      url "https://github.com/BinaryBourbon/fountain/releases/download/v0.10.0/fountain-darwin-amd64"
-      sha256 "28e06a418db02def5c82b1d95a7450504cf8983debd704ee000e03da431133e0"
+      url "https://github.com/BinaryBourbon/fountain/releases/download/v0.10.1/fountain-darwin-amd64"
+      sha256 "e892876be59a2208f7746d9b769a80ca9ffdfc03d7241c23694dcdccce433958"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BinaryBourbon/fountain/releases/download/v0.10.0/fountain-linux-arm64"
-      sha256 "363085707138db9a016a95138d8cf79bd1746896b3afb36fc21d1003e5bcf0b7"
+      url "https://github.com/BinaryBourbon/fountain/releases/download/v0.10.1/fountain-linux-arm64"
+      sha256 "42aac9965f533814df6f3862ff3a107ff5095b233d1641f8948cd4d8e776901c"
     end
     on_intel do
-      url "https://github.com/BinaryBourbon/fountain/releases/download/v0.10.0/fountain-linux-amd64"
-      sha256 "8c3c7012de6fa2536853ff24d456c0124a73c7b4468020ac9b3fa6f98f656439"
+      url "https://github.com/BinaryBourbon/fountain/releases/download/v0.10.1/fountain-linux-amd64"
+      sha256 "f091492571e3a3fcd73704ce5900571563320fa0f9a9ec26d70b66a9926e7798"
     end
   end
 
